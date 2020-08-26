@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/secondary"
+        tools:context=".presentation.login.LoginActivity">
+
+    <EditText
+            android:id="@+id/etPromptPay"
+            style="@style/LoginPhoneNumberStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvPhoneNumberTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+            android:id="@+id/tvPhoneNumberTitle"
+            style="@style/LoginPhoneNumberTitleStyle"
+            android:text="@string/login_phone_number_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/etPromptPay"
+            app:layout_constraintTop_toTopOf="@+id/guideline"/>
+    <TextView
+            android:id="@+id/tvForgotPassword"
+            style="@style/LoginForgetPasswordStyle"
+            android:text="@string/login_forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/vPin"
+            app:layout_constraintEnd_toEndOf="@+id/vPin"
+            app:layout_constraintStart_toStartOf="@+id/vPin"/>
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+            android:id="@+id/vPin"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@null"
+            android:cursorVisible="false"
+            android:digits="1234567890"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textColor="@android:color/transparent"
+            android:textIsSelectable="false"
+            android:textSize="0px"
+            android:visibility="visible"
+            app:pinBackgroundDrawable="@drawable/bg_pin"
+            app:pinBackgroundIsSquare="true"
+            app:pinCharacterSpacing="8dp"
+            app:pinLineColors="@color/primary"
+            app:pinTextBottomPadding="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="84dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/etPromptPay"/>
+    <android.support.constraint.Guideline
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/guideline" app:layout_constraintGuide_percent="0.2"/>
+
+</android.support.constraint.ConstraintLayout>

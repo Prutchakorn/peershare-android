@@ -1,0 +1,282 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--&lt;!&ndash;<item name="colorPrimaryDark">@color/colorPrimaryDark</item>&ndash;&gt;-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+    <style name="EditTransactionDialogAnimationStyle">
+        <item name="android:windowEnterAnimation">@animator/slide_up</item>
+        <item name="android:windowExitAnimation">@animator/slide_down</item>
+    </style>
+
+    <!-- Launch -->
+    <style name="LaunchTitleStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/launchTitleColor</item>
+    </style>
+
+    <style name="LaunchRegisterTitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/launchRegisterTitleColor</item>
+    </style>
+
+    <style name="LaunchLoginTitleStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/launchLoginTitleColor</item>
+    </style>
+
+    <!-- Login -->
+    <style name="LoginPhoneNumberTitleStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+        <item name="android:textColor">@color/loginPhoneNumberTitleColor</item>
+    </style>
+
+    <style name="LoginForgetPasswordStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+        <item name="android:textColor">@color/loginForgetPasswordColor</item>
+    </style>
+
+    <style name="LoginPhoneNumberStyle">
+        <item name="android:textSize">36sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_sbold</item>
+        <item name="android:textColor">@color/loginPhoneNumberColor</item>
+        <item name="android:inputType">phone</item>
+        <item name="android:maxLength">12</item>
+    </style>
+
+    <!-- Create Transaction -->
+    <style name="CreateTransactionCancelStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+        <item name="android:textColor">@color/createTransactionCancelColor</item>
+    </style>
+
+    <style name="CreateTransactionTitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/createTransactionTitleColor</item>
+    </style>
+
+    <style name="CreateTransactionBillTotalStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/createTransactionBillTotalColor</item>
+    </style>
+
+    <style name="CreateTransactionSelectorStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/createTransactionUnSelectorColor</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CreateTransactionSplitStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+        <item name="android:textColor">@color/createTransactionSplitColor</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CreateTransactionNextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/createTransactionNextColor</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="EnterContactEnterContactTitleStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/enterContactEnterContactTitleColor</item>
+    </style>
+
+    <style name="EnterContactTitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/enterContactTitleColor</item>
+    </style>
+
+    <style name="EnterContactAddStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/enterContactAddColor</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="EnterContactCashStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/enterContactCashColor</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="EnterContactNameStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:ems">10</item>
+        <item name="android:background">@drawable/bg_text_box</item>
+    </style>
+
+    <style name="EnterContactPromptPayStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+        <item name="android:inputType">phone</item>
+        <item name="android:ems">10</item>
+        <item name="android:background">@drawable/bg_text_box</item>
+    </style>
+
+    <!-- Item -->
+    <style name="ItemPriceStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/itemPriceColor</item>
+    </style>
+
+    <!-- Member -->
+    <style name="MemberNameStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/memberNameColor</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Enter Bill -->
+    <style name="EnterBillTitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+        <item name="android:textColor">@color/enterBillTitleColor</item>
+    </style>
+
+    <style name="EnterBillPriceStyle">
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+        <item name="android:textColor">@color/enterBillPriceColor</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="EnterBillAddStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/enterBillAddColor</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Submit Bill -->
+    <style name="SubmitBillBackStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+        <item name="android:textColor">@color/submitBillBackColor</item>
+    </style>
+
+    <style name="SubmitBillTitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/submitBillTitleColor</item>
+    </style>
+
+    <style name="SubmitBillPaidStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/submitBillPaidColor</item>
+    </style>
+
+    <style name="SubmitBillRemainingStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/submitBillRemainingColor</item>
+    </style>
+
+    <style name="SubmitBillRemainingTitleStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/submitBillRemainingTitleColor</item>
+    </style>
+
+    <style name="SubmitBillScanStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/submitBillScanColor</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="SubmitBillSubmitStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/submitBillSubmitBillColor</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="SubmitBillEnterManuallyStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/submitBillEnterManuallyColor</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="EnterBillItemNameStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/enterBillItemColor</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="SubmitBillPriceStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/submitBillPriceColor</item>
+    </style>
+
+    <style name="SubmitBillItemNameStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+        <item name="android:textColor">@color/submitBillItemNameColor</item>
+    </style>
+
+    <!-- Transaction -->
+    <style name="TransactionTitleStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/transactionTitleColor</item>
+    </style>
+
+    <style name="TransactionNewPeerShareStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/transactionNewPeerShareColor</item>
+    </style>
+
+    <style name="TransactionRecentTitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/transactionRecentTitleColor</item>
+    </style>
+
+    <style name="TransactionBillNameStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/transactionBillNameColor</item>
+    </style>
+
+    <style name="TransactionStatusStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/transactionStatusColor</item>
+    </style>
+
+    <style name="TransactionPriceStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textColor">@color/transactionStatusColor</item>
+    </style>
+</resources>

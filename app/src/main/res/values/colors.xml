@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#5a78fe</color>
+    <color name="secondary">#ffffff</color>
+    <color name="thirdary">#887afe</color>
+    <color name="forthary">#AC3A2B</color>
+    <color name="fifthary">#F9F9F9</color>
+    <color name="sixthary">#2E2E2E</color>
+    <color name="seventhary">#3497DA</color>
+
+    <color name="backgroundColor">@color/secondary</color>
+    
+    <!-- Launch -->
+    <color name="launchTitleColor">@color/primary</color>
+    <color name="launchRegisterTitleColor">@color/secondary</color>
+    <color name="launchLoginTitleColor">@color/primary</color>
+
+    <!-- Login -->
+    <color name="loginPhoneNumberTitleColor">@color/primary</color>
+    <color name="loginForgetPasswordColor">@color/primary</color>
+    <color name="loginPhoneNumberColor">#000000</color>
+
+    <!-- Create Transaction -->
+    <color name="createTransactionCancelColor">@color/primary</color>
+    <color name="createTransactionTitleColor">#000000</color>
+    <color name="createTransactionBillTotalColor">@color/primary</color>
+    <color name="createTransactionUnSelectorColor">#cccccc</color>
+    <color name="createTransactionSelectorColor">@color/secondary</color>
+    <color name="createTransactionSplitColor">#000000</color>
+    <color name="createTransactionNextColor">@color/secondary</color>
+    <color name="enterContactEnterContactTitleColor">@color/primary</color>
+    <color name="enterContactTitleColor">#000000</color>
+    <color name="enterContactAddColor">@color/secondary</color>
+    <color name="enterContactCashColor">@color/fifthary</color>
+    <color name="enterContactUnSelectorColor">#cccccc</color>
+    <color name="enterContactSelectorColor">@color/secondary</color>
+
+    <!-- Item -->
+    <color name="itemPriceColor">#000000</color>
+
+    <!-- Member -->
+    <color name="memberNameColor">@color/secondary</color>
+
+    <!-- Enter Bill -->
+    <color name="enterBillTitleColor">#000000</color>
+    <color name="enterBillPriceColor">@color/primary</color>
+    <color name="enterBillAddColor">@color/secondary</color>
+    <color name="enterBillNameSelectorColor">@color/secondary</color>
+    <color name="enterBillNameUnSelectorColor">#cccccc</color>
+
+    <!-- Submit Bill -->
+    <color name="submitBillBackColor">@color/primary</color>
+    <color name="submitBillTitleColor">#000000</color>
+    <color name="submitBillPaidColor">@color/primary</color>
+    <color name="submitBillRemainingColor">@color/forthary</color>
+    <color name="submitBillRemainingTitleColor">#cccccc</color>
+    <color name="submitBillScanColor">@color/secondary</color>
+    <color name="submitBillSubmitBillColor">@color/secondary</color>
+    <color name="submitBillEnterManuallyColor">@color/primary</color>
+    <color name="enterBillItemColor">@color/fifthary</color>
+    <color name="submitItemPeerBackgroundColor">@color/sixthary</color>
+    <color name="submitBillPriceColor">@color/primary</color>
+    <color name="submitBillItemNameColor">@color/sixthary</color>
+
+    <!-- Transaction -->
+    <color name="transactionTitleColor">@color/sixthary</color>
+    <color name="transactionBillNameColor">@color/sixthary</color>
+    <color name="transactionStatusColor">#FFC107</color>
+    <color name="transactionRecentTitleColor">@color/primary</color>
+    <color name="transactionNewPeerShareColor">@color/secondary</color>
+
+</resources>

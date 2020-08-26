@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">peershare</string>
+    <string name="general_alertmessage_somethingwentwrong_title">Something Went Wrong</string>
+    <string name="general_alertmessage_serviceerror_400_title">Data Request Error (400)</string>
+    <string name="general_alertmessage_serviceerror_401_title">Unauthorized User (401)</string>
+    <string name="general_alertmessage_serviceerror_403_title">Data Request Error (403)</string>
+    <string name="general_alertmessage_serviceerror_404_title">Data Not Found (404)</string>
+    <string name="general_alertmessage_serviceerror_500_title">Internal Server Error (500)</string>
+    <string name="general_alertmessage_serviceerror_503_title">Internal Server Error (503)</string>
+
+    <string name="loading_message">Loading&#8230;</string>
+    <string name="decimal_message">%1$.2f</string>
+    <!-- Launch -->
+    <string name="launch_title">PeerShare</string>
+    <string name="launch_register_title">I have never used PeerShare</string>
+    <string name="launch_login_title">Login (Existing User)</string>
+
+    <!-- Login -->
+    <string name="login_phone_number_title">Mobile Phone Number</string>
+    <string name="login_forget_password">Forget Password?</string>
+    <string name="login_success">Success</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="login_phone_number_failed">Please fill your phone number!</string>
+
+    <!-- Create Transaction -->
+    <string name="create_transaction_peers">Peers</string>
+    <string name="create_transaction_cancel">Cancel</string>
+    <string name="create_transaction_bill_name_hint">Bill Name</string>
+    <string name="create_transaction_bill_name_title">Bill Name (Optional)</string>
+    <string name="create_transaction_bill_total_title">Bill Total</string>
+    <string name="create_transaction_bill_total_hint">0.00</string>
+    <string name="create_transaction_split_equally">Split Equally</string>
+    <string name="create_transaction_split_by_item">Split By Item</string>
+    <string name="create_transaction_next">Next</string>
+    <string name="enter_contact_enter_contact_detail_title">Enter Contact Detail</string>
+    <string name="enter_contact_name_title">Name (Optional)</string>
+    <string name="enter_contact_name_hint">Name</string>
+    <string name="enter_contact_prompt_pay_title">PromptPay (Citizen ID or Mobile Phone)</string>
+    <string name="enter_contact_prompt_pay_hint">PromptPay</string>
+    <string name="enter_contact_cash">Cash</string>
+    <string name="enter_contact_add">Add</string>
+    <string name="enter_contact_add_failed">Add Failed</string>
+
+    <!-- Enter Bill -->
+    <string name="enter_bill_price_title">Price</string>
+    <string name="enter_bill_shared_by_title">Shared By</string>
+    <string name="enter_bill_tag_title">Tag</string>
+    <string name="enter_bill_add">ADD</string>
+
+    <!-- Submit Bill -->
+    <string name="submit_bill_back">Back</string>
+    <string name="submit_bill_bill_total_title">Bill Total</string>
+    <string name="submit_bill_bill_item_title">Bill Item</string>
+    <string name="submit_bill_remaining_title">Remaining</string>
+    <string name="submit_bill_scan_bill_item">Scan Bill Item</string>
+    <string name="submit_bill_enter_manually">Enter Manually</string>
+    <string name="submit_bill_submit_bill">Submit Bill</string>
+
+    <!-- Transaction -->
+    <string name="transactionTitle">PeerShare</string>
+    <string name="transactionNewPeerShare">New PeerShare</string>
+    <string name="transactionRecentTitle">Recent</string>
+</resources>
